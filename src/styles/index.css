@@ -1,3 +1,19 @@
 /* 
     General Styles
 */
+.app-wrapper {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  max-width: 90%;
+}
+
+.horizontal-scrollable > .row > .card {
+  display: inline-block;
+}
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.footer {
+  font-size: x-small;
+}
