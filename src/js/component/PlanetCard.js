@@ -25,7 +25,16 @@ export default function PlanetCard({
 
   return (
     <div className="card m-3 p-0" style={{ width: 18 + "rem" }}>
-      <img src="https://via.placeholder.com/500x300" className="card-img-top" />
+      {/* <img
+        src={`https://starwars-visualguide.com/assets/img/planets/${
+          props.id + 1
+        }.jpg`}
+        onError={(e) => {
+          e.target.src =
+            "https://starwars-visualguide.com/assets/img/placeholder.jpg";
+        }}
+        className="card-img-top"
+      /> */}
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <ul className="card-text list-unstyled fs-5">

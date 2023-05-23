@@ -33,7 +33,7 @@ export const Home = () => {
 
       <h2>Starships</h2>
       <div className="card-parent">
-        {store.starships.map((item, idx) => {
+        {store.vehicles.map((item, idx) => {
           return (
             <div key={idx} className="baby-card">
               <Card item={item} id={idx} type="starship" />
